@@ -1,6 +1,6 @@
-name = "Rayhan"
-age = int(19)
-height = float(173.5)
+name = input("Nama: ")
+age = int(input("Umur: "))
+height = float(input("Tinggi badan: "))
 
 #print(type(name))
 #print(type(age))

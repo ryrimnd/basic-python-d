@@ -1,10 +1,9 @@
 Π = 22/7
-r = input("Nilai jari-jari lingkaran: ")
-rr = int(r)
-l = rr * rr * Π
+r = int(input("Nilai jari-jari lingkaran: "))
+l = r**2 * Π
 
-#print(rr)
+#print(r)
 #print(l)
 
-#print(f"Luas lingkaran dengan- jari-jari {rr} cm adalah {l} cm\u00b2")
-print(f"Luas lingkaran dengan- jari-jari {rr} cm adalah {l:.2f} cm\u00b2")
+#print(f"Luas lingkaran dengan jari-jari {r} cm adalah {l} cm\u00b2")
+print(f"Luas lingkaran dengan jari-jari {r} cm adalah {l:.2f} cm\u00b2")
