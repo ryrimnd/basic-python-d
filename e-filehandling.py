@@ -32,14 +32,14 @@ for i in file:
     print(i)
 '''
 
-kata = []
-listbaru = []
-file = open("baca.txt", "r")
-for nama in file:
-    kata.append(nama)
-
-for nama in kata:
-    listkatahapus = nama.replace("\n","")
-    listbaru.append(listkatahapus)
-print(listbaru)
+alamatemailnya = []
+listalamatemail = []
+file = open("receiver_list.txt", "r")
+for i in file:
+    alamatemailnya.append(i)
+print(alamatemailnya)
+for x in alamatemailnya:
+    listkatahapus = x.replace("\n","")
+    listalamatemail.append(listkatahapus)
+print(listalamatemail)
 
